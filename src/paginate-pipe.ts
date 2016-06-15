@@ -1,4 +1,4 @@
-import {Pipe} from "@angular/core";
+import {Pipe} from "angular2/core";
 import {PaginationService, IPaginationInstance} from "./pagination-service";
 
 const LARGE_NUMBER = Number.MAX_SAFE_INTEGER;

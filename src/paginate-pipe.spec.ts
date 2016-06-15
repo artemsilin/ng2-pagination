@@ -4,11 +4,11 @@ import {
     expect,
     inject,
     it,
-} from '@angular/core/testing';
+} from 'angular2/core/testing';
 import {
   ComponentFixture,
   TestComponentBuilder
-} from '@angular/compiler/testing';
+} from 'angular2/compiler/testing';
 import {PaginatePipe, PaginationService, IPaginationInstance} from "./ng2-pagination";
 import {getListItems, getListItemsText, TestCmp} from './testing-helpers';
 

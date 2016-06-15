@@ -1,4 +1,4 @@
-import {By} from '@angular/platform-browser';
+import {By} from 'angular2/platform-browser';
 import {
     describe,
     expect,
@@ -7,11 +7,11 @@ import {
     xit,
     it,
     tick,
-} from '@angular/core/testing';
+} from 'angular2/core/testing';
 import {
   ComponentFixture,
   TestComponentBuilder
-} from '@angular/compiler/testing';
+} from 'angular2/compiler/testing';
 import {PaginationControlsCmp} from './pagination-controls-cmp';
 import {
     getPageLinkItems,

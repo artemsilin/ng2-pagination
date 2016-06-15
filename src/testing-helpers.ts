@@ -1,8 +1,8 @@
-import {Component, DebugElement} from '@angular/core';
-import {By} from '@angular/platform-browser';
+import {Component, DebugElement} from 'angular2/core';
+import {By} from 'angular2/platform-browser';
 import {
     ComponentFixture
-} from '@angular/compiler/testing';
+} from 'angular2/compiler/testing';
 import {PaginationControlsCmp, PaginatePipe, PaginationService, IPaginationInstance} from './ng2-pagination';
 
 /**

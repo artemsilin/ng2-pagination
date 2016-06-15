@@ -1,4 +1,4 @@
-import {Component, Input} from "@angular/core"
+import {Component, Input} from "angular2/core"
 import {PaginatePipe, PaginationControlsCmp, IPaginationInstance} from '../../src/ng2-pagination';
 
 

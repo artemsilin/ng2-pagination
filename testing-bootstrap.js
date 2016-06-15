@@ -6,7 +6,7 @@
  * test providers in a single place, allowing the testing of DOM in component tests.
  */
 
-// @AngularClass
+// angular2Class
 /*
  * When testing with webpack and ES6, we have to do some extra
  * things get testing to work right. Because we are gonna write test
@@ -29,8 +29,8 @@ require('zone.js/dist/fake-async-test');
 // RxJS
 require('rxjs/Rx');
 
-var testing = require('@angular/core/testing');
-var browser = require('@angular/platform-browser-dynamic/testing');
+var testing = require('angular2/core/testing');
+var browser = require('angular2/platform-browser-dynamic/testing');
 
 testing.setBaseTestProviders(
   browser.TEST_BROWSER_DYNAMIC_PLATFORM_PROVIDERS,

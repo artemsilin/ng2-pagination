@@ -35,7 +35,7 @@ and related loaders such as SystemJS. See the [demo Plunker](http://plnkr.co/edi
 ## Simple Example
 
 ```TypeScript
-import {Component} from '@angular/core';
+import {Component} from 'angular2/core';
 import {PaginatePipe, PaginationControlsCmp, PaginationService} from 'ng2-pagination';
 
 @Component({
