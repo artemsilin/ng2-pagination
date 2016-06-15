@@ -8,7 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
+var core_1 = require('angular2/core');
 var pagination_service_1 = require("./pagination-service");
 var template_1 = require('./template');
 var PaginationControlsCmp = (function () {
@@ -59,8 +59,9 @@ var PaginationControlsCmp = (function () {
         this.updatePageLinks();
     };
     PaginationControlsCmp.prototype.ngAfterViewInit = function () {
-        if (this.template && 0 < this.template.nativeElement.children.length) {
-            this.hasTemplate = true;
+        var _this = this;
+        if ((this.template) && 0 < this.template.nativeElement.children.length) {
+            setTimeout(function () { return _this.hasTemplate = true; });
         }
     };
     PaginationControlsCmp.prototype.ngOnDestroy = function () {
